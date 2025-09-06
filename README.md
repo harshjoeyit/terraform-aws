@@ -1,0 +1,1 @@
+Terraform prototype to provision an EC2 instance on Amazon Web Services (AWS).
