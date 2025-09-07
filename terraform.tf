@@ -2,6 +2,16 @@
 # and which version of Terraform to use to provision your infrastructure
 
 terraform {
+  cloud {
+    
+    organization = "test-org-harshit"
+
+    workspaces {
+      name = "terraform-aws-get-started"
+      project = "Learn-Terraform"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
